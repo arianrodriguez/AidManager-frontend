@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-  <div class="card-container flex flex-column gap-5">
+  <div class="card-container flex flex-column gap-6">
     <newpost-card></newpost-card>
   </div>
 </template>
