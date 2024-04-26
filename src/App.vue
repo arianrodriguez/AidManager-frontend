@@ -3,11 +3,11 @@
 import ToolbarContent from "@/public/toolbar-content.component.vue";
 import SidebarContent from "@/public/sidebar-content-component.vue";
 import HomeContent from "@/pages/home/components/home-content.component.vue";
-import CalendarContent from "@/pages/calendar/calendar-content.component.vue";
+import TeamContent from "@/pages/team/components/team-content.component.vue";
 
 export default {
   name: 'App',
-  components: {CalendarContent, HomeContent, ToolbarContent, SidebarContent},
+  components: {TeamContent, HomeContent, ToolbarContent, SidebarContent},
   data() {
     return {
       sidebarVisible: true,
@@ -40,7 +40,7 @@ export default {
     <sidebar-content :sidebarVisible="sidebarVisible" class="sidebar-content"></sidebar-content>
     <main class="main-content">
       <!--aca hacen su jiji solo reemplaceen por el componente (vista) que van a trabajar-->
-      <home-content></home-content>
+      <team-content/>
     </main>
   </div>
 </template>
